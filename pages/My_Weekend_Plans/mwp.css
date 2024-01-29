@@ -1,0 +1,19 @@
+<style>
+h1 {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    width: 410px;
+  }
+div {
+    width: 400px;
+    text-align: center;
+    background-color: purple;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+
+    padding:5x 5x 5x 5x;
+    box-shadow: 1x 2x 5x 5x rbga(230, 230, 250, 1);
+  } 
+</style>

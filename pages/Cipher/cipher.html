@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="cipher.js"></script>
+    <title>Circular Shift Encryption and Decryption</title>
+    <!-- Add Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body class="container mt-5">
+
+    <h1 class="mb-4">Cipher</h1>
+
+    <div class="mb-3">
+      <label for="inputPhrase" class="form-label">Enter your phrase:</label>
+      <input type="text" id="inputPhrase" class="form-control" placeholder="Type your phrase here">
+    </div>
+
+    <div class="mb-3">
+      <label for="inputKey" class="form-label">Enter the shift(- or +):</label>
+      <input type="number" id="inputKey" class="form-control" placeholder="Enter the key">
+    </div>
+
+  <button class="btn btn-primary mb-3" onclick="processPhrase()">Encrypt and Decrypt</button>
+
+    <div class="mb-3">
+      <h3>Encrypted Result:</h3>
+      <p id="encrypted" class="lead"></p>
+      <p id="encryptedAtbash" class="lead"></p>
+    </div>
+
+    <div class="mb-3">
+      <h3>Decrypted Result:</h3>
+      <p id="decrypted" class="lead"></p>
+      <p id="decryptedAtbash" class="lead"></p>
+    </div>
+
+    <!-- Add Bootstrap JS and Popper.js for Bootstrap components that require them -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <a href="../../index.html">return</a>
+  </body>
+
+</html>
